@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full grid grid-cols-2 place-items-center gap-6 p-4">
+  <div class="h-full grid grid-cols-1 place-items-center gap-6 p-4 md:grid-cols-2">
     <TodoList :todos="todoArray" class="w-full max-w-xl bg-[#2e303d] text-amber-400">
       <template #header="{ todoNumber }">
         Il y a {{ todoNumber }} todos
